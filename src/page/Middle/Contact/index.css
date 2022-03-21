@@ -1,0 +1,18 @@
+.detail {
+  width: 854px;
+  margin: 20px auto;
+  text-align: center;
+}
+.detail h4 {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 0 0 10px 0;
+  padding: 5px 10px;
+}
+.detail p {
+  line-height: 2;
+  font-size: 12px;
+  margin: 0 0 10px;
+}

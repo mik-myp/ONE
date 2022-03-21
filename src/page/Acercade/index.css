@@ -1,0 +1,21 @@
+.site-content {
+  width: 854px;
+  margin: auto;
+  font-size: 16px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: 20px;
+  margin-top: 10px;
+}
+.page-header {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.people {
+  margin-left: 80px;
+}

@@ -1,0 +1,42 @@
+.articles {
+  background-color: #f6f6f6;
+  font-size: 12px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.title {
+  background-color: #01aef0;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 0 0 10px 0;
+  padding: 5px 10px;
+}
+.firstArticle {
+  padding: 0 10px;
+}
+.firstArticle_id {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.firstArticle_title {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.articles div li {
+  height: 26px;
+  line-height: 26px;
+  padding: 0 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  list-style: none;
+}
+.articles div li span {
+  color: #777777;
+}
+.articles div li a {
+  color: #666666;
+}

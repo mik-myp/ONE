@@ -1,0 +1,92 @@
+.carousel p {
+  font-size: 12px;
+}
+.carousel .image {
+  width: 100%;
+}
+.image-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 3px 0;
+  text-align: center;
+}
+.content {
+  display: table-cell;
+  float: left;
+  width: 126px;
+  height: 120px;
+  font-size: 14px;
+  padding: 25px 7px;
+  line-height: 1.67;
+}
+
+.mainInfo {
+  float: right;
+  width: 100px;
+  height: 120px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  color: #333;
+  text-align: center;
+}
+.titulo {
+  margin: 0 0 5px;
+}
+.carousel .dom {
+  font-size: 56px;
+  font-weight: 600;
+  height: 56px;
+  line-height: 56px;
+  margin: 0;
+}
+
+.ant-carousel .slick-slider .slick-dots-bottom {
+  bottom: -26px;
+  height: 26px;
+  width: 100%;
+  background-color: #333333;
+  margin: 0;
+}
+
+.ant-carousel .slick-slider .slick-dots li {
+  top: 40%;
+  width: 8px !important;
+  margin: 0 7px;
+}
+
+.ant-carousel .slick-dots li button {
+  width: 8px !important;
+  height: 8px !important;
+  border-radius: 100% !important;
+}
+
+.ant-col .carouseIcon {
+  color: #333;
+}
+.ant-col .carouseIcon:hover {
+  color: #333;
+}
+.CarouselLeftIcon {
+  height: 100%;
+  position: relative;
+  top: -58%;
+  left: 5%;
+  z-index: 5;
+  opacity: 0.3;
+}
+.CarouselLeftIcon:hover {
+  opacity: 1;
+}
+
+.CarouselRigthIcon {
+  height: 100%;
+  position: relative;
+  top: -58%;
+  left: 85%;
+  z-index: 5;
+  opacity: 0.3;
+}
+
+.CarouselRigthIcon:hover {
+  opacity: 1;
+}
