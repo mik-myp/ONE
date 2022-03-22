@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./index.css";
 import axios from "axios";
-import Content from "../../../component/Content";
+import Contents from "../../../component/Contents";
 
 export default function Articles() {
   const [articlesList, setArticlesList] = useState([]);
@@ -13,5 +13,5 @@ export default function Articles() {
     });
   }, []);
 
-  return <Content title="ONE 文章" dataList={articlesList} />;
+  return <Contents title="ONE 文章" dataList={articlesList} />;
 }

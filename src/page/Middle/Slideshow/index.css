@@ -66,6 +66,10 @@
 .ant-col .carouseIcon:hover {
   color: #333;
 }
+
+.ant-image {
+  display: block;
+}
 .CarouselLeftIcon {
   height: 100%;
   position: relative;

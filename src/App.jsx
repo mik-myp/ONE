@@ -5,13 +5,23 @@ import "./App.css";
 import { useRoutes } from "react-router-dom";
 import routes from "./route";
 
+import { Layout } from "antd";
+
+const { Header, Footer, Content } = Layout;
+
 export default function App() {
   const element = useRoutes(routes);
   return (
     <>
-      <Head />
-      {element}
-      <Foot />
+      <Layout>
+        <Header>
+          <Head />
+        </Header>
+        <Content>{element}</Content>
+        <Footer>
+          <Foot />
+        </Footer>
+      </Layout>
     </>
   );
 }

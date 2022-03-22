@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
-import { Carousel, Row, Col } from "antd";
+import { Carousel, Row, Col, Image } from "antd";
 import axios from "axios";
 import moment from "moment";
 import "./index.css";
@@ -29,7 +29,12 @@ export default function Slideshow() {
         {articlesList.map((item) => (
           <div key={item.id}>
             <Link to={`/one/${item.id}`} state={{ item }}>
-              <img src={item.img_url} alt="配图" className="image" />
+              <Image
+                src={item.img_url}
+                className="image"
+                alt="图片"
+                preview={false}
+              />
             </Link>
             <div className="image-footer">摄影</div>
             <Row

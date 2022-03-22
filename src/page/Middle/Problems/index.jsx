@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import Content from "../../../component/Content";
+import Contents from "../../../component/Contents";
 
 export default function Problems() {
   const [problemsList, setProblemsList] = useState([]);
@@ -11,5 +11,5 @@ export default function Problems() {
     });
   }, []);
 
-  return <Content title="ONE 问题" dataList={problemsList} />;
+  return <Contents title="ONE 问题" dataList={problemsList} />;
 }
