@@ -13,5 +13,5 @@ export default function Articles() {
     });
   }, []);
 
-  return <Contents title="ONE 文章" dataList={articlesList} />;
+  return <Contents title="ONE 文章" dataList={articlesList} path="articles" />;
 }

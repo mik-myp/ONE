@@ -11,5 +11,7 @@ export default function Problems() {
     });
   }, []);
 
-  return <Contents title="ONE 问题" dataList={problemsList} />;
+  return (
+    <Contents title="ONE 问题" dataList={problemsList} path={"problems"} />
+  );
 }

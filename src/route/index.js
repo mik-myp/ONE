@@ -13,11 +13,11 @@ const routes = [
     element: <Middle />
   },
   {
-    path: '/article/:id',
+    path: '/articles/:id',
     element: <ArticleDetail />
   },
   {
-    path: '/problem/:id',
+    path: '/problems/:id',
     element: <ProblemDetail />
   },
   {
